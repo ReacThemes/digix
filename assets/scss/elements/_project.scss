@@ -2,8 +2,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
     overflow: hidden;
 }
 
@@ -22,21 +20,6 @@
         transition: 0.5s cubic-bezier(0.29, 0, 0.2, 1);
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         background: #fff;
-
-        // &:hover {
-        //     -webkit-box-flex: 3;
-        //     -ms-flex: 3;
-        //     flex: 3;
-
-        //     .image-box {
-        //         width: 358px;
-        //         transform: scaleX(0);
-
-        //         .image {
-        //             min-width: 358px;
-        //         }
-        //     }
-        // }
 
         &.active {
             -webkit-box-flex: 3;
@@ -70,6 +53,7 @@
 
         .content-rotate {
             padding: 43px 30px;
+            cursor: pointer;
 
             span {
                 display: inline-block;
