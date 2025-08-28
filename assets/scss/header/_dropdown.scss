@@ -362,18 +362,17 @@ header.header-three .rts-mega-menu.service-mega-menu-style {
 }
 
 .rts-mega-menu.service-mega-menu-style {
-    padding: 30px 30px 0 30px;
+    padding: 30px 30px 30px 30px;
     z-index: 1000;
 
     li {
         margin-bottom: 20px;
-
         a {
             border: none;
             width: 100%;
             padding: 18px 25px !important;
             border-radius: 5px;
-            background: #f9f9f9;
+            border: 1px solid #EAF0FF;
             display: block;
             transition: .3s;
 
@@ -427,11 +426,9 @@ header.header-three .rts-mega-menu.service-mega-menu-style {
         }
 
         &:hover a {
-            border: none;
-            background: #20282d14;
+            
         }
     }
-
     .menu-thumb {
         height: auto;
 
@@ -440,6 +437,21 @@ header.header-three .rts-mega-menu.service-mega-menu-style {
             object-fit: cover;
         }
     }
+
+    .menu-list{
+        border-left: 1px solid #EAF0FF;
+        padding-left: 35px;
+        margin-left: 10px;
+        ul{
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+            li{
+                margin-bottom: 0;
+            }
+        }
+    }
+
 }
 
 header .menu-item-open {
@@ -605,5 +617,18 @@ header.header--sticky.sticky {
     .nav-area ul li.main-nav:hover>a {
         transition: 0.3s;
         color: #fff !important;
+    }
+}
+
+.demo-app-development{
+
+    header .nav-area ul li.main-nav:hover > a{
+        color: var(--color-white) !important;
+        &::after{
+            color: var(--color-white) !important;
+        }
+    } 
+    header .nav-area ul li.main-nav:hover::after{
+        color: var(--color-white) !important;
     }
 }

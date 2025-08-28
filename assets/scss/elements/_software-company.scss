@@ -560,12 +560,17 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background: var(--color-primary);
+        border-radius: 10px;
+        padding: 20px 70px;
+        overflow: hidden;
         .content-area{
             max-width: 410px;
             .title-left-wrapper{
                 margin-bottom: 30px;
                 .title{
                     margin-top: 0;
+                    color: var(--color-white);
                 }
             }
             .button-area{
@@ -575,15 +580,17 @@
                     padding: 12px 20px;
                     border: 1px solid var(--color-primary);
                     &.btn-primary{
+                        border: 1px solid var(--color-white);
                         &::after{
-                            background: #F8FBFF;
+                            background: var(--color-white);
                         }
                         &:hover{
                             color: var(--color-primary);
                         }
                     }
                     &.btn-border{
-                        background: #F8FBFF;
+                        background: var(--color-white);
+                        border: 1px solid var(--color-white);
                         &::after{
                             background: var(--color-primary);
                         }
@@ -597,10 +604,11 @@
         .image-area{
             position: relative;
             z-index: 1;
+            margin-bottom: -50px;
             .float-image{
                 position: absolute;
                 z-index: 1;
-                bottom: 42px;
+                bottom: 70px;
                 left: -25%;
             }
         }
