@@ -613,3 +613,45 @@
         }
     }
 }
+
+.rts-service-area{
+    .title-area-between{
+        .right-area{
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            .swiper-navigation{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .swiper-btn{
+                    position: relative;
+                    left: unset;
+                    right: unset;
+                    top: unset;
+                    bottom: unset;
+                    width: 60px;
+                    height: 50px;
+                    display: block;
+                    text-align: center;
+                    line-height: 50px;
+                    border-radius: 28px;
+                    border: 1px solid #DEE4FF;
+                    color: var(--color-heading-1);
+                    margin: 0;
+                    background: transparent;
+                    transition: all .3s;
+                    &:hover{
+                        background: var(--color-primary);
+                        color: var(--color-white);
+                    }
+                    &::after{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

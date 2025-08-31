@@ -207,6 +207,44 @@
         });
       });
       $(document).ready(function () {
+        var swiper = new Swiper(".mySwiper-testimonails-four", {
+          slidesPerView: 3.4,
+          spaceBetween: 30,
+          loop: true,
+          speed: 1000,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          autoplay: {
+            delay: 3000, // Slide will change every 3 seconds
+            disableOnInteraction: false, // keeps autoplay on even if user interacts
+          },
+          breakpoints: {
+            1500: {
+              slidesPerView: 3.4,
+            },
+            1300: {
+              slidesPerView: 3,
+            },
+            991: {
+              slidesPerView: 2,
+              centeredSlides: false,
+            },
+            767: {
+              slidesPerView: 2,
+              centeredSlides: false,
+            },
+            575: {
+              slidesPerView: 1,
+            },
+            0: {
+              slidesPerView: 1,
+            }
+          },
+        });
+      });
+      $(document).ready(function () {
         var swiper = new Swiper(".mySwiper-testimonials-three", {
           slidesPerView: 1,
           spaceBetween: 30,
@@ -291,6 +329,10 @@
           autoplay: {
             delay: 3000,
             disableOnInteraction: false,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
           },
           breakpoints: {
             1500: {
