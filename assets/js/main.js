@@ -36,6 +36,7 @@
     },
     methods: function (e) {
       rtsJs.fonklsAnimation();
+      rtsJs.preloader();
       rtsJs.sideMenu();
       rtsJs.swiperActivation();
       rtsJs.splitText();
@@ -106,6 +107,11 @@
               duration: 1.4,
               stagger: 0.05
           });
+    },
+    preloader: function () {
+      window.addEventListener('load', function () {
+        document.querySelector('body').classList.add("loaded")
+      });
     },
     sideMenu: function () {
       // metismenu active
