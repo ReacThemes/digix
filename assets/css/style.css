@@ -13673,6 +13673,9 @@ a.btn-line:hover::after {
 .demo-app-development .product-wrapper .inner {
   background: var(--color-primary) !important;
 }
+.demo-app-development .product-wrapper .inner.two {
+  background: #4B47FF !important;
+}
 
 .demo-cybersecurity .title {
   font-family: var(--font-4) !important;

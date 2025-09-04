@@ -551,6 +551,9 @@
     overflow-x: visible;
     .product-wrapper .inner{
         background: var(--color-primary) !important;
+        &.two{
+            background: #4B47FF !important;
+        }
     }
 }
 
