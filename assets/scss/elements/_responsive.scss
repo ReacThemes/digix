@@ -225,6 +225,12 @@
     .single-vision-mission-area .right-content-area .mission-counter-area{
         gap: 30px;
     }
+    .pl_lg--0{
+        padding-left: 0;
+    }
+    .pt_lg--50{
+        padding-top: 50px;
+    }
 }
 @media(max-width:1200px) and (min-width:992px){
     .single-blog-style-one .inner-content-blog .title{
@@ -488,6 +494,15 @@
     .pricing-wrapper-machine{
         padding: 40px 20px;
     }
+    .rts-cta-area .cta-inner .image-area{
+        order: -1;
+        margin-bottom: 0;
+    }
+    .rts-cta-area .cta-inner{
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px;
+    }
 }
 
 @media(max-width:991px) and (min-width:768px) {
@@ -525,13 +540,6 @@
     }
     .single-service-style-four{
         padding: 25px 20px;
-    }
-    .rts-cta-area .cta-inner{
-        flex-direction: column;
-        gap: 30px;
-    }
-    .rts-cta-area .cta-inner .image-area{
-        order: -1;
     }
     .rts-cta-area .cta-inner .content-area .button-area{
         justify-content: center;

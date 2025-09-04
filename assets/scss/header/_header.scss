@@ -237,7 +237,7 @@ header.header-digital{
         align-items: center;
         gap: 0;
         .logo-area{
-            padding: 8px 23px;
+            padding: 9px 23px 7px;
             border: 1px solid #DFDBF9;
             border-radius: 33px;
             a{
@@ -312,4 +312,11 @@ header.inner-header-app-development{
             }
         }
     }
+}
+
+.demo-app-development.inner header .nav-area ul li.main-nav:hover > a{
+    color: var(--color-primary) !important;
+}
+.demo-app-development.inner header .nav-area ul li.main-nav:hover > a::after{
+    color: var(--color-primary) !important;
 }

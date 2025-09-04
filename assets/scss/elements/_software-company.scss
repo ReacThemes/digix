@@ -27,6 +27,9 @@
     .title-left-wrapper .pre, .demo-software-company .title-center-wrapper .pre{
         margin-bottom: 20px;
     }
+    .single-team-style-one .thumbnail{
+        border-radius: 10px;
+    }
 }
 
 // Banner Style Here
@@ -294,7 +297,7 @@
 .rts-service-area-four{
     .title-area-between{
         .right-area{
-            .btn-line{
+            a{
                 border: 1px solid #DEE4FF;
                 border-radius: 30px;
                 padding: 15px 26px;

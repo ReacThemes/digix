@@ -41,6 +41,14 @@
     padding: 90px;
 }
 
+.rts-feature-area.inner{
+    background: #F9FAFF;
+    .rts-feature-main-wrapper-data{
+        background: none;
+        border-radius: 0;
+        border: none;
+    }
+}
 .feature-right-content-inner{
     .feature-wrapper-list{
         margin-bottom: 35px;

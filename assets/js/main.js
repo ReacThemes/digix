@@ -184,6 +184,10 @@
             el: ".swiper-pagination",
             clickable: true,
           },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
           autoplay: {
             delay: 3000, // Slide will change every 3 seconds
             disableOnInteraction: false, // keeps autoplay on even if user interacts

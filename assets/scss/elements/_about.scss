@@ -76,7 +76,7 @@
     }
 
     .disc1 {
-        margin-bottom: 80px;
+        margin-bottom: 70px;
         max-width: 95%;
     }
 
@@ -142,6 +142,7 @@
     }
 
     .about-content-three {
+        max-width: 737px;
         .image-top-area-about {
             display: flex;
             align-items: center;
@@ -154,6 +155,58 @@
 
             .thumbnail-2 {
                 max-width: 520px;
+            }
+        }
+        &.two{
+            .counter-area{
+                margin-top: 30px;
+                ul{
+                    padding: 0;
+                    margin: 0;
+                    display: flex;
+                    align-items: center;
+
+                    li{
+                        list-style: none;
+                        padding: 0 30px;
+                        margin: 0;
+                        display: flex;
+                        align-items: center;
+                        border-width: 0 1px;
+                        border-style: solid;
+                        border-color: #0C1B40;
+                        gap: 20px;
+                        &:first-child{
+                            padding-left: 0;
+                            border: none;
+                        }
+                        &:last-child{
+                            padding-right: 0;
+                            border: none;
+                        }
+                        .content{
+                            h5{
+                                font-size: 28px;
+                                color: var(--color-white);
+                                margin-bottom: 5px;
+                            }
+                            p{
+                                color: var(--color-white);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.three{
+            display: flex;
+            gap: 55px;
+            max-width: 100%;
+            .image-top-area-about{
+                flex-basis: 45%;
+            }
+            .content-area-about{
+                flex-basis: 55%;
             }
         }
     }
