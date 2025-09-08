@@ -269,10 +269,18 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-
+                transition: all .3s;
                 i {
                     color: #050D2A;
                     transform: rotate(45deg);
+                }
+                &:hover{
+                    border: 1px solid var(--color-primary);
+                    background: var(--color-primary);
+                    color: var(--color-white);
+                    i{
+                        color: var(--color-white);
+                    }
                 }
             }
 

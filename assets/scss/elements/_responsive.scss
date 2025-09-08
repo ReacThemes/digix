@@ -137,7 +137,7 @@
         }
     }
     .rts-facilities-area.area-4 .thumbnail-area-facilities{
-        padding-right: 10px;
+        padding: 30px;
     }
     .rts-pricing-area .title-left-wrapper .title br,
     .mySwiper-testimonials-three .swiper-button-prev,
@@ -502,6 +502,9 @@
         flex-direction: column;
         gap: 30px;
         padding: 40px;
+    }
+    .rts-facilities-area.area-4 .thumbnail-area-facilities{
+        margin-right: 0;
     }
 }
 

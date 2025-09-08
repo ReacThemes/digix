@@ -207,6 +207,19 @@
             }
             .content-area-about{
                 flex-basis: 55%;
+                .clients-area-clients {
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    margin-top: 30px;
+
+                    p.disc {
+                        margin-bottom: 0;
+                        font-weight: 500;
+                        color: #ffffff;
+                        line-height: 1.25;
+                    }
+                }
             }
         }
     }
@@ -506,7 +519,7 @@
     }
 }
 
-.about-title-digital-egency{
+.about-title-digital-agency{
     padding: 8px 12px;
     font-size: 16px;
     border-radius:  33px;

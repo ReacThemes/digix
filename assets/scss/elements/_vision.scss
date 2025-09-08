@@ -65,8 +65,10 @@
         }
     }
     .right-content-area{
-        .titel-main{
+        .title-main{
             font-size: 32px;
+            font-family: var(--font-5);
+            font-weight: 600;
         }
         p.disc{
             margin-bottom: 25px;
@@ -89,6 +91,10 @@
                     }
                 }
             }
+        }
+        .image-area{
+            display: flex;
+            gap: 30px;
         }
     }
 }

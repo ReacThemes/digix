@@ -74,6 +74,7 @@
                 line-height: 1;
                 font-size: 36px;
                 margin-bottom: 0;
+                font-weight: 700;
                 @media #{$large-mobile} {
                     font-size: 30px;
                 }
@@ -126,7 +127,7 @@
 }
 
 .working-process-three-main{
-    border-top: 1px dashed #DBD6FF;
+    border-top: 2px dashed #DBD6FF;
     .working-process-wrapper-three{
         padding-top: 40px;
         position: relative;
@@ -144,7 +145,7 @@
         &::before{
             content: '';
             position: absolute;
-            top: -6px;
+            top: -7px;
             left: 0;
             width: 12px;
             height: 12px;
@@ -167,7 +168,7 @@
 
 .working-process-digital-agency-left{
     background: #FAFAFF;
-    padding: 50px 46px;
+    padding: 50px 40px;
     @media #{$large-mobile} {
         padding: 30px;
     }
@@ -272,3 +273,16 @@
     }
 }
 
+.demo-app-development{
+    .working-process-three-main .working-process-wrapper-three::before{
+        background-image: url(../images/process/06.svg);
+    }
+    .single-testimonails-style-one{
+        padding: 30px 20px;
+    }
+}
+.demo-machine-learning{
+    .working-process-three-main .working-process-wrapper-three::before{
+        background-image: url(../images/process/06.svg);
+    }
+}

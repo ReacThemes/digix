@@ -218,13 +218,17 @@
       });
       $(document).ready(function () {
         var swiper = new Swiper(".mySwiper-testimonails-four", {
-          slidesPerView: 3.4,
+          slidesPerView: 3.8,
           spaceBetween: 30,
           loop: true,
           speed: 1000,
           pagination: {
             el: ".swiper-pagination",
             clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
           },
           autoplay: {
             delay: 3000, // Slide will change every 3 seconds

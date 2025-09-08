@@ -636,3 +636,12 @@ header.header--sticky.sticky {
         color: var(--color-white) !important;
     }
 }
+
+.demo-app-development,
+.demo-machine-learning,
+.demo-software-company,
+.demo-digital-agency{
+    .rts-mega-menu.service-mega-menu-style li a .single-service-menu .icon img{
+        filter: brightness(0) saturate(100%) invert(45%) sepia(84%) saturate(4331%) hue-rotate(227deg) brightness(98%) contrast(103%);
+    }
+}

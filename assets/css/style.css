@@ -12265,10 +12265,19 @@ Copyright (c) 2015 Daniel Eden
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s;
 }
 .banner-content-two-style .right-top-area .bottom-area .radious-btn i {
   color: #050D2A;
   transform: rotate(45deg);
+}
+.banner-content-two-style .right-top-area .bottom-area .radious-btn:hover {
+  border: 1px solid var(--color-primary);
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+.banner-content-two-style .right-top-area .bottom-area .radious-btn:hover i {
+  color: var(--color-white);
 }
 .banner-content-two-style .banner-image-large {
   position: absolute;
@@ -13346,6 +13355,18 @@ a.btn-line:hover::after {
 .about-three-wrapper .about-content-three.three .content-area-about {
   flex-basis: 55%;
 }
+.about-three-wrapper .about-content-three.three .content-area-about .clients-area-clients {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.about-three-wrapper .about-content-three.three .content-area-about .clients-area-clients p.disc {
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.25;
+}
 
 .progress-area-about-wrapper {
   display: flex;
@@ -13620,7 +13641,7 @@ a.btn-line:hover::after {
   color: #050D20;
 }
 
-.about-title-digital-egency {
+.about-title-digital-agency {
   padding: 8px 12px;
   font-size: 16px;
   border-radius: 33px;
@@ -13881,18 +13902,18 @@ a .title:hover {
   border-radius: 5px;
 }
 
-.demo-digital-egency {
+.demo-digital-agency {
   --color-primary: #615EFC;
 }
-.demo-digital-egency .rts-btn {
+.demo-digital-agency .rts-btn {
   border-radius: 33px;
 }
-.demo-digital-egency .rts-btn.with-arrow {
+.demo-digital-agency .rts-btn.with-arrow {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.demo-digital-egency .rts-btn .up-right {
+.demo-digital-agency .rts-btn .up-right {
   transform: rotate(45deg);
 }
 
@@ -14037,10 +14058,10 @@ body.demo-app-development .rts-mega-menu.sm-mega-70 {
 }
 .bg_dark .title-center-wrapper .pre {
   font-size: 14px;
-  border: 1px solid #0B1D48;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
   display: inline-block;
   padding: 3px 13px;
-  color: #fff;
+  color: #fff !important;
 }
 .bg_dark .title-center-wrapper .title {
   font-weight: 500;
@@ -14399,6 +14420,13 @@ body.demo-app-development .rts-mega-menu.sm-mega-70 {
 .single-digital-agency-wrapper-service .right-area .arrow-btn-area a:hover {
   border-color: var(--color-primary) !important;
   color: var(--color-primary) !important;
+}
+.single-digital-agency-wrapper-service .right-area .arrow-btn-area a:hover i {
+  color: var(--color-primary);
+}
+.single-digital-agency-wrapper-service .right-area .arrow-btn-area a i {
+  color: var(--color-heading-1);
+  transition: all 0.3s;
 }
 
 .single-service-style-four {
@@ -14902,8 +14930,10 @@ body.demo-app-development .rts-mega-menu.sm-mega-70 {
   line-height: 1;
   transition: 0.4s;
 }
-.single-vision-mission-area .right-content-area .titel-main {
+.single-vision-mission-area .right-content-area .title-main {
   font-size: 32px;
+  font-family: var(--font-5);
+  font-weight: 600;
 }
 .single-vision-mission-area .right-content-area p.disc {
   margin-bottom: 25px;
@@ -14924,6 +14954,10 @@ body.demo-app-development .rts-mega-menu.sm-mega-70 {
 }
 .single-vision-mission-area .right-content-area .mission-counter-area .single-counter .content .main {
   font-size: 16px;
+}
+.single-vision-mission-area .right-content-area .image-area {
+  display: flex;
+  gap: 30px;
 }
 
 .demo-app-development .rts-about-breadcrumb-image {
@@ -15801,6 +15835,10 @@ button {
   font-size: 16px;
 }
 
+.demo-cybersecurity .footer-form .rts-btn {
+  border-radius: 4px;
+}
+
 .progress-wrap {
   position: fixed;
   right: 30px;
@@ -15956,6 +15994,7 @@ button {
   border: 1px solid var(--color-primary);
   margin: 0;
   transition: var(--transition);
+  color: var(--color-primary);
 }
 .testimonials-left-one .swiper-btn-area .swiper-btn:hover {
   background: var(--color-primary);
@@ -16668,6 +16707,7 @@ button {
   line-height: 1;
   font-size: 36px;
   margin-bottom: 0;
+  font-weight: 700;
 }
 @media only screen and (max-width: 575px) {
   .fun-facts-main-wrapper .funfacts-bottom-area .mid-area .title {
@@ -16716,7 +16756,7 @@ button {
 }
 
 .working-process-three-main {
-  border-top: 1px dashed #DBD6FF;
+  border-top: 2px dashed #DBD6FF;
 }
 .working-process-three-main .working-process-wrapper-three {
   padding-top: 40px;
@@ -16736,7 +16776,7 @@ button {
 .working-process-three-main .working-process-wrapper-three::before {
   content: "";
   position: absolute;
-  top: -6px;
+  top: -7px;
   left: 0;
   width: 12px;
   height: 12px;
@@ -16755,7 +16795,7 @@ button {
 
 .working-process-digital-agency-left {
   background: #FAFAFF;
-  padding: 50px 46px;
+  padding: 50px 40px;
 }
 @media only screen and (max-width: 575px) {
   .working-process-digital-agency-left {
@@ -16852,6 +16892,17 @@ button {
   .accordion-faq-one.in-working-process .accordion-item .accordion-body img {
     display: block;
   }
+}
+
+.demo-app-development .working-process-three-main .working-process-wrapper-three::before {
+  background-image: url(../images/process/06.svg);
+}
+.demo-app-development .single-testimonails-style-one {
+  padding: 30px 20px;
+}
+
+.demo-machine-learning .working-process-three-main .working-process-wrapper-three::before {
+  background-image: url(../images/process/06.svg);
 }
 
 .project-two .outer-box {
@@ -17422,10 +17473,10 @@ button {
   background: var(--color-primary);
 }
 
-.demo-digital-egency .bg_light {
+.demo-digital-agency .bg_light {
   background: #FAFAFF;
 }
-.demo-digital-egency .rts-mega-menu.sm-mega-70 {
+.demo-digital-agency .rts-mega-menu.sm-mega-70 {
   width: 70%;
 }
 
@@ -19465,8 +19516,54 @@ button {
 }
 
 .rts-facilities-area.area-4 .thumbnail-area-facilities {
-  padding-left: 0;
-  padding-right: 120px;
+  padding: 55px;
+  margin-right: 30px;
+  background: var(--color-white);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.rts-facilities-area.area-4 .thumbnail-area-facilities .shape {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.rts-facilities-area.area-4 .thumbnail-area-facilities .top-icon-wrapper {
+  margin-bottom: 40px;
+}
+.rts-facilities-area.area-4 .thumbnail-area-facilities .top-icon-wrapper ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.rts-facilities-area.area-4 .thumbnail-area-facilities .top-icon-wrapper ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  display: block;
+  text-align: center;
+  background: var(--color-white);
+  border-radius: 10px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+}
+.rts-facilities-area.area-4 .thumbnail-area-facilities .title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.rts-facilities-area.area-4 .thumbnail-area-facilities .btn-line {
+  margin: auto;
 }
 
 .rts-award-area.area-4 .facilities-area-left {
@@ -19742,11 +19839,37 @@ button {
   line-height: 1;
 }
 .demo-machine-learning .rts-product-area.bg_light .product-wrapper .inner {
-  background: #132A64;
+  background: #F2F6FF;
   border-radius: 0;
 }
+.demo-machine-learning .rts-product-area.bg_light .product-wrapper .inner .rts-btn {
+  margin-top: 30px;
+}
+.demo-machine-learning .rts-product-area.bg_light .product-wrapper .inner.one .left-content .title {
+  color: var(--color-heading-1);
+}
+.demo-machine-learning .rts-product-area.bg_light .product-wrapper .inner.one .left-content .disc {
+  color: var(--color-heading-1);
+}
+.demo-machine-learning .rts-product-area.bg_light .product-wrapper .inner.one .left-content .feature-list li {
+  color: #717383;
+}
+.demo-machine-learning .rts-product-area.bg_light .product-wrapper .inner.one .left-content .feature-list li i {
+  color: #3E64FF;
+}
 .demo-machine-learning .rts-product-area.bg_light .product-wrapper .inner.two {
+  background: #051234;
+}
+.demo-machine-learning .rts-product-area.bg_light .product-wrapper .inner.two .left-content .rts-btn {
+  background: var(--color-white);
+  color: var(--color-heading-1);
+}
+.demo-machine-learning .rts-product-area.bg_light .product-wrapper .inner.three {
   background: #2D1067;
+}
+.demo-machine-learning .rts-product-area.bg_light .product-wrapper .inner.three .left-content .rts-btn {
+  background: var(--color-white);
+  color: var(--color-heading-1);
 }
 
 .award-area-digital-agency .single-award {
@@ -20776,6 +20899,13 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   color: var(--color-white) !important;
 }
 
+.demo-app-development .rts-mega-menu.service-mega-menu-style li a .single-service-menu .icon img,
+.demo-machine-learning .rts-mega-menu.service-mega-menu-style li a .single-service-menu .icon img,
+.demo-software-company .rts-mega-menu.service-mega-menu-style li a .single-service-menu .icon img,
+.demo-digital-agency .rts-mega-menu.service-mega-menu-style li a .single-service-menu .icon img {
+  filter: brightness(0) saturate(100%) invert(45%) sepia(84%) saturate(4331%) hue-rotate(227deg) brightness(98%) contrast(103%);
+}
+
 .side-bar {
   position: fixed;
   overflow: hidden;
@@ -21411,7 +21541,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
     max-width: 500px;
   }
   .rts-facilities-area.area-4 .thumbnail-area-facilities {
-    padding-right: 10px;
+    padding: 30px;
   }
   .rts-pricing-area .title-left-wrapper .title br,
   .mySwiper-testimonials-three .swiper-button-prev,
@@ -21774,6 +21904,9 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
     flex-direction: column;
     gap: 30px;
     padding: 40px;
+  }
+  .rts-facilities-area.area-4 .thumbnail-area-facilities {
+    margin-right: 0;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {

@@ -22,10 +22,10 @@
 
         .pre {
             font-size: 14px;
-            border: 1px solid #0B1D48;
+            border: 1px solid rgba(#FFFFFF, $alpha: .1) !important;
             display: inline-block;
             padding: 3px 13px;
-            color: #fff;
+            color: #fff !important;
         }
 
         .title {
@@ -403,6 +403,13 @@
                 &:hover{
                     border-color: var(--color-primary) !important;
                     color: var(--color-primary) !important;
+                    i{
+                        color: var(--color-primary);
+                    }
+                }
+                i{
+                    color: var(--color-heading-1);
+                    transition: all .3s;
                 }
             }
         }
