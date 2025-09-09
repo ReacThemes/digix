@@ -44,6 +44,7 @@
       rtsJs.stickyHeader();
       rtsJs.vedioActivation();
       rtsJs.odoMeter();
+      rtsJs.smoothScroll();
     },
     fonklsAnimation: function () {
           let endTl = gsap.timeline({
@@ -778,9 +779,17 @@
           handleOdometer();
         });
       });
+    },
+
+    smoothScroll: function (e) {
+      $(document).on('click', '.onepage a[href^="#"]', function (event) {
+        event.preventDefault();
+
+        $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top
+        }, 300);
+      });
     }
-
-
   }
 
   rtsJs.m();

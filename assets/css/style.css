@@ -125,7 +125,7 @@ body {
   line-height: var(--line-height-b1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter Tight", sans-serif;
   color: var(--color-body);
   font-weight: var(--p-regular);
   position: relative;
@@ -12000,7 +12000,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .banner-style-one-wrapper-inner {
-  max-width: 614px;
+  max-width: 630px;
   padding-top: 120px;
   opacity: 0;
 }
@@ -13075,6 +13075,50 @@ Copyright (c) 2015 Daniel Eden
   padding: 20px;
 }
 
+.rts-banner-marketing-automation {
+  padding: 80px 0 55px;
+  position: relative;
+}
+.rts-banner-marketing-automation .banner-content-two-style {
+  margin-bottom: 40px;
+}
+.rts-banner-marketing-automation .banner-content-two-style .title {
+  font-size: 64px;
+  line-height: 68px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+.rts-banner-marketing-automation .banner-content-two-style .banner-form {
+  max-width: 520px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 25px;
+}
+.rts-banner-marketing-automation .banner-content-two-style .banner-form .icon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+.rts-banner-marketing-automation .banner-content-two-style .banner-form input {
+  padding: 15px 44px;
+}
+.rts-banner-marketing-automation .banner-content-two-style .banner-form button {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  padding: 12px 24px;
+}
+.rts-banner-marketing-automation .marquree-main-wrapper-1 {
+  bottom: 0;
+}
+.rts-banner-marketing-automation .marquree-main-wrapper-1 .single-marquree .single-item::after {
+  display: none;
+}
+
 .rts-btn {
   padding: 16px 37px;
   font-size: 16px;
@@ -14041,6 +14085,21 @@ body.demo-app-development .rts-mega-menu.sm-mega-70 {
     transform: rotate(360deg);
   }
 }
+.marketing-onepage {
+  --color-primary: #132A64;
+}
+.marketing-onepage .rts-btn {
+  border-radius: 6px;
+}
+.marketing-onepage .rts-btn.with-arrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.marketing-onepage .rts-btn .up-right {
+  transform: rotate(45deg);
+}
+
 .single-service-style-one .icon {
   margin-bottom: 30px;
 }
@@ -14150,7 +14209,7 @@ body.demo-app-development .rts-mega-menu.sm-mega-70 {
 }
 
 .rts-service-details-breadcrumb-area {
-  padding-top: 140px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 @media only screen and (max-width: 767px) {
@@ -14576,9 +14635,6 @@ body.demo-app-development .rts-mega-menu.sm-mega-70 {
   align-items: center;
   gap: 10px;
   background: transparent !important;
-}
-.single-service-security .rts-btn i {
-  color: #E5EAFF;
 }
 
 .container-full-bg-dark {
@@ -15296,6 +15352,10 @@ button {
   gap: 20px;
   margin-bottom: 20px;
 }
+.contact-form-two .single-input {
+  position: relative;
+  z-index: 1;
+}
 .contact-form-two input {
   height: 52px;
   background: #fff;
@@ -15303,6 +15363,10 @@ button {
 }
 .contact-form-two input[type=checkbox] {
   margin-bottom: 20px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .contact-form-two label {
   padding-left: 0 !important;
@@ -17845,7 +17909,7 @@ button {
   transition: 0.3s;
   background-size: cover;
 }
-.single-pricing-list-area:hover::after {
+.single-pricing-list-area.active::after, .single-pricing-list-area:hover::after {
   width: 100%;
   height: 100%;
 }
@@ -17918,10 +17982,10 @@ button {
 .pricing-cyber-page .single-pricing-list-area * {
   color: #050D20 !important;
 }
-.pricing-cyber-page .single-pricing-list-area:hover * {
+.pricing-cyber-page .single-pricing-list-area.active *, .pricing-cyber-page .single-pricing-list-area:hover * {
   color: #fff !important;
 }
-.pricing-cyber-page .single-pricing-list-area:hover .package {
+.pricing-cyber-page .single-pricing-list-area.active .package, .pricing-cyber-page .single-pricing-list-area:hover .package {
   background: #FFFFFF;
   color: #050D20 !important;
 }
@@ -20241,6 +20305,13 @@ header.inner-header-app-development .button-wrapper-flex .rts-btn::after {
   background: #fff;
 }
 
+header.header-marketing {
+  border-bottom: 1px solid #EEEEEE;
+}
+header.header-marketing .nav-area ul li a {
+  padding: 32px 0 31px;
+}
+
 .demo-app-development.inner header .nav-area ul li.main-nav:hover > a {
   color: var(--color-primary) !important;
 }
@@ -20574,8 +20645,8 @@ header .nav-area ul li.main-nav:hover::after {
   filter: brightness(0) saturate(100%) invert(97%) sepia(3%) saturate(0%) hue-rotate(288deg) brightness(103%) contrast(100%);
 }
 .rts-mega-menu.with-home-demos {
-  width: 600px;
-  left: unset;
+  width: 100%;
+  left: 0;
 }
 
 .mega-menu-item {
@@ -21439,6 +21510,9 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   .marquee .marquee__item .main--wrapper-tt .single-inner-marquree {
     flex: 0 0 88%;
   }
+  .rts-banner-area-start-machine .hero-area {
+    right: -10%;
+  }
 }
 @media (max-width: 1400px) {
   .rts-banner-area-four .right-content-area {
@@ -21486,6 +21560,9 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   }
   .testimonials-area-machine-wrapper .single-testimonials-area {
     gap: 50px;
+  }
+  .rts-feature-main-wrapper-data {
+    padding: 90px 50px;
   }
 }
 @media (max-width: 1400px) and (min-width: 1200px) {

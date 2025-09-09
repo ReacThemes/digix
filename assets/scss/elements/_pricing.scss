@@ -545,6 +545,7 @@
         transition: .3s;
         background-size: cover;
     }
+    &.active,
     &:hover{
         &::after{
             width: 100%;
@@ -627,6 +628,7 @@
         *{
             color: #050D20 !important;
         }
+        &.active,
         &:hover{
             *{
                 color: #fff !important;

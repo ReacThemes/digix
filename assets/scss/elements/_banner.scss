@@ -14,7 +14,7 @@
 }
 
 .banner-style-one-wrapper-inner {
-    max-width: 614px;
+    max-width: 630px;
     padding-top: 120px;
     opacity: 0;
 
@@ -1072,5 +1072,52 @@
     .mySwiper-digital-agency-brand .single-image{
         border-radius: 6px;
         padding: 20px;
+    }
+}
+.rts-banner-marketing-automation{ 
+    padding: 80px 0 55px;
+    position: relative;
+    .banner-content-two-style{
+        margin-bottom: 40px;
+        .title{
+            font-size: 64px;
+            line-height: 68px;
+            font-weight: 600;
+            color: var(--color-primary);
+        }
+        .banner-form{
+            max-width: 520px;
+            margin: auto;
+            position: relative;
+            z-index: 1;
+            margin-bottom: 25px;
+            .icon{
+                position: absolute;
+                top: 50%;
+                left: 20px;
+                transform: translateY(-50%);
+            }
+            input{
+                padding: 15px 44px;
+            }
+            button{
+                position: absolute;
+                z-index: 1;
+                top: 50%;
+                right: 10px;
+                transform: translateY(-50%);
+                padding: 12px 24px;
+            }
+        }
+    }
+    .marquree-main-wrapper-1{
+        bottom: 0;
+        .single-marquree{
+            .single-item{
+                &::after{
+                    display: none;
+                }
+            }
+        }
     }
 }

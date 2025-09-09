@@ -35,6 +35,9 @@
     .marquee .marquee__item .main--wrapper-tt .single-inner-marquree{
         flex: 0 0 88%;
     }
+    .rts-banner-area-start-machine .hero-area{
+        right: -10%;
+    }
 }
 @media(max-width:1400px){
     .rts-banner-area-four .right-content-area {
@@ -82,6 +85,9 @@
     }
     .testimonials-area-machine-wrapper .single-testimonials-area{
         gap: 50px;
+    }
+    .rts-feature-main-wrapper-data{
+        padding: 90px 50px;
     }
 }
 @media(max-width:1400px) and (min-width:1200px){
