@@ -1113,7 +1113,15 @@
     .marquree-main-wrapper-1{
         bottom: 0;
         .single-marquree{
+            gap: 18px;
+            animation: marquee 50s linear infinite;
             .single-item{
+                flex: 0 0 auto;
+                span{
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 1;
+                }
                 &::after{
                     display: none;
                 }

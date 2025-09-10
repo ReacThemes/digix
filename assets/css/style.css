@@ -13115,6 +13115,18 @@ Copyright (c) 2015 Daniel Eden
 .rts-banner-marketing-automation .marquree-main-wrapper-1 {
   bottom: 0;
 }
+.rts-banner-marketing-automation .marquree-main-wrapper-1 .single-marquree {
+  gap: 18px;
+  animation: marquee 50s linear infinite;
+}
+.rts-banner-marketing-automation .marquree-main-wrapper-1 .single-marquree .single-item {
+  flex: 0 0 auto;
+}
+.rts-banner-marketing-automation .marquree-main-wrapper-1 .single-marquree .single-item span {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+}
 .rts-banner-marketing-automation .marquree-main-wrapper-1 .single-marquree .single-item::after {
   display: none;
 }
@@ -17571,6 +17583,10 @@ button {
   text-transform: uppercase;
   color: #fff;
 }
+.marquree-main-wrapper-1 .single-marquree img {
+  min-width: max-content;
+  max-width: max-content;
+}
 .marquree-main-wrapper-1 .single-marquree .single-item {
   position: relative;
 }
@@ -20645,8 +20661,8 @@ header .nav-area ul li.main-nav:hover::after {
   filter: brightness(0) saturate(100%) invert(97%) sepia(3%) saturate(0%) hue-rotate(288deg) brightness(103%) contrast(100%);
 }
 .rts-mega-menu.with-home-demos {
-  width: 100%;
-  left: 0;
+  width: 600px;
+  left: unset;
 }
 
 .mega-menu-item {
