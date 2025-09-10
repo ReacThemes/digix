@@ -2,6 +2,20 @@
     .marquee .marquee__item .main--wrapper-tt .single-inner-marquree{
         flex: 0 0 80%;
     }
+    .thumbnail-security-area-right{
+        padding-left: 70px;
+    }
+    .thumbnail-security-area-right .thumbnail{
+        margin-right: -100px;
+    }
+    .thumbnail-security-area-right .right-top-area{
+        right: -130px;
+        top: -40px;
+    }
+    .thumbnail-security-area-right .left-bottom{
+        left: 7%;
+        bottom: -2%;
+    }
 }
 @media(max-width:1600px){
     .our-vission.area-4 .floating-div{
@@ -37,6 +51,20 @@
     }
     .rts-banner-area-start-machine .hero-area{
         right: -10%;
+    }
+    .thumbnail-security-area-right{
+        padding-left: 50px;
+    }
+    .thumbnail-security-area-right .thumbnail{
+        margin-right: 0;
+    }
+    .thumbnail-security-area-right .right-top-area{
+        right: -50px;
+        top: -65px;
+    }
+    .thumbnail-security-area-right .left-bottom{
+        left: 0;
+        bottom: -6%;
     }
 }
 @media(max-width:1400px){
@@ -112,10 +140,12 @@
         width: 280px;
     }
     .thumbnail-security-area-right .left-bottom{
-        left: 2%;
+        left: -3%;
+        bottom: -9%;
     }
     .thumbnail-security-area-right .right-top-area{
-        right: -26%;
+        right: -14%;
+        top: -95px;
     }
     .thumbnail-right-about-cyber .content{
         left: 25px;
