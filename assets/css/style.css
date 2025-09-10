@@ -20944,7 +20944,7 @@ header.header-two .menu-item-open > a {
 .hega-menu-head-wrapper {
   margin: 0;
   margin-bottom: 10px !important;
-  margin-left: 10px !important;
+  margin-left: 0px !important;
   padding-bottom: 10px !important;
   border-bottom: 1px solid var(--color-primary);
 }
