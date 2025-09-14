@@ -324,3 +324,19 @@
 .demo-cybersecurity .footer-form .rts-btn{
     border-radius: 4px;
 }
+.marketing-onepage{
+    .footer-wized-wrapper .single ul li a,
+    .rts-footer-one .left-wiget p.disc,
+    .rts-footer-one .copyright-area .copyright-1 ul li a,
+    .rts-footer-one .copyright-area .copyright-1 p.disc{
+        color: #D9D9D9;
+    }
+    .rts-footer-one.bg_dark .left-wiget form input{
+        background: var(--color-white);
+        border-radius: 6px;
+    }
+    .rts-footer-one.bg_dark .left-wiget form button{
+        background: var(--color-white);
+        color: var(--color-primary);
+    }
+}

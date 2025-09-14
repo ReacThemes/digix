@@ -343,3 +343,52 @@
         }
     }
 }
+
+.rts-testimonials-area.marketing{
+    .testimonials-area-machine-wrapper{
+        .single-testimonials-area{
+            .content{
+                max-width: 668px;
+                .top-head{
+                    span{
+                        border: 1px solid #EAF0FF;
+                        border-radius: 20px;
+                        color: var(--color-primary);
+                        display: block;
+                        padding: 9px 16px;
+                        max-width: max-content;
+                        line-height: 1;
+                    }
+                }
+            }
+        }
+        .thumbnail{
+            border-radius: 20px;
+        }
+    }
+    .navigation-area{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        max-width: max-content;
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        bottom: 0;
+        border: 1px solid var(--color-primary);
+        padding: 6px 18px;
+        border-radius: 30px;
+        .swiper-btn{
+            position: unset;
+            height: auto;
+            width: auto;
+            border: none;
+            line-height: 1;
+            transform: none;
+            display: block;
+            margin: 0;
+            background: none;
+            color: var(--color-primary);
+        }
+    }
+}

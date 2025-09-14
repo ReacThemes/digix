@@ -189,6 +189,7 @@ header.header-one.header-relative {
 
 .menu-btn-toggle{
     display: none;
+    cursor: pointer;
     @media #{$smlg-device} {
         display: block;
     }
@@ -315,14 +316,37 @@ header.inner-header-app-development{
 }
 header.header-marketing{
     border-bottom: 1px solid #EEEEEE;
-    .nav-area ul li a{
-        padding: 32px 0 31px;
+    .nav-area{
+        ul li a{
+            padding: 32px 0 31px;
+        } 
     }
 }
-
+.onepage header{
+   .nav-area{
+        display: block !important;
+    } 
+}
 .demo-app-development.inner header .nav-area ul li.main-nav:hover > a{
     color: var(--color-primary) !important;
 }
 .demo-app-development.inner header .nav-area ul li.main-nav:hover > a::after{
     color: var(--color-primary) !important;
+}
+header.header-one.header-saas{
+    position: absolute !important;
+    .main-nav > a{
+        color: var(--color-white);
+        &::after{
+            color: var(--color-white);
+        }
+        
+    }
+    .select-area.language .has-dropdown > a{
+        color: var(--color-white);
+    }
+    .rts-btn{
+        background: var(--color-white);
+        color: var(--color-primary);
+    }
 }

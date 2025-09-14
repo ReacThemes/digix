@@ -686,3 +686,37 @@
         }
     }
 }
+
+.single-feature-area-four {
+    padding: 34px 22px 34px 34px;
+    border-radius: 20px;
+    border: 1px solid #EAF0FF;
+    transition: all 0.3s ease;
+    .icon {
+        margin-bottom: 23px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        display: block;
+        background: #EAF0FF;
+    }
+    .content {
+        .title {
+            font-size: 20px;
+            color: var(--color-primary);
+            font-weight: 600;
+            margin-bottom: 18px;
+        }
+        p.disc {
+            font-size: 16px;
+            color: #717383;
+            margin-bottom: 23px;
+        }
+    }
+    &:hover {
+        border-color: var(--color-primary);
+        transform: scale(1.02) translateY(-2px);
+    }
+}

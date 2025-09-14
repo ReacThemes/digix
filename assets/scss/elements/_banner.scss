@@ -1129,3 +1129,98 @@
         }
     }
 }
+
+.rts-banner-saas-landing{
+    background: linear-gradient(180deg, #615EFC 0%, #3A3896 100%);
+    height: 930px;
+    padding-top: 160px;
+    position: relative;
+    z-index: 1;
+    .banner-content-two-style{
+        .pre{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border: 1px solid rgba(#EAF0FF, $alpha: .1);
+            color: var(--color-white);
+            max-width: max-content;
+            margin: auto;
+            padding: 6px 14px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        .title{
+            color: var(--color-white);
+            line-height: 1.2;
+            font-weight: 600;
+        }
+        .desc{
+            max-width: 535px;
+            margin: auto;
+            color: #F2F2F7;
+        }
+        .button-area{
+            .rts-btn{
+                margin: auto;
+                margin-top: 30px;
+                background: var(--color-white);
+                color: #050D20;
+            }
+        }
+    }
+    .section-inner{
+        .image-area{
+            text-align: center;
+            img{
+                margin: auto;
+            }
+        }
+    }
+    .bg-shape{
+        img{
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            &.shape-01{
+                width: 100%;
+                height: 100%;
+                left: 0;
+            }
+            &.shape-02{
+                left: 10%;
+            }
+        }
+    }
+    .shape-area{
+        img{
+            position: absolute;
+            z-index: 1;
+            &:nth-child(1){
+                top: 30%;
+                left: 14%;
+            }
+            &:nth-child(2){
+                top: 42%;
+                right: 17%;
+            }
+            &:nth-child(3){
+                top: 50%;
+                right: 28%;
+            }
+            &:nth-child(4){
+                bottom: 22%;
+                left: 10%;
+            }
+            &:nth-child(5){
+                bottom: 29%;
+                left: 13%;
+            }
+        }
+    }
+}
+.rts-trusted-brand-area.saas-landing{
+    padding-top: 310px;
+    .brand-area-wrapper-app-development{
+        border-radius: 20px;
+    }
+}

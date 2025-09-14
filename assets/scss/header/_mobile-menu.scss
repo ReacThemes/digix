@@ -209,7 +209,6 @@
     }
 }
 
-
 // header-two menu are-start
 
 
@@ -613,4 +612,17 @@ header.header-three {
             }
         }
     }
+}
+
+.mobile-menu nav ul{
+    padding-left: 0;
+    li a.main {
+        padding: 12px 0 17px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3019607843);
+        cursor: pointer;
+        font-weight: 500;
+        color: var(--color-white);
+        display: block;
+        width: 100%;
+    } 
 }

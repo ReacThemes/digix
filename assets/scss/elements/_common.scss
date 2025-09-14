@@ -284,4 +284,43 @@ body.demo-app-development{
             transform: rotate(45deg);
         }
     }
+    .title-left-wrapper span.pre, .title-center-wrapper span.pre{
+        border-radius: 20px;
+        line-height: 1;
+        font-weight: 500;
+        border: 1px solid #EAF0FF;
+        padding: 9px 16px;
+    }
+    .title-left-wrapper .title, .title-center-wrapper .title{
+        color: var(--color-primary);
+        font-weight: 600;
+    }
+}
+.saas-onepage{
+    --color-primary: #615EFC;
+    .rts-btn{
+        border-radius: 6px;
+        &.with-arrow{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .up-right{
+            transform: rotate(45deg);
+        }
+    }
+    .title-left-wrapper span.pre, .title-center-wrapper span.pre{
+        border-radius: 20px;
+        line-height: 1;
+        font-weight: 500;
+        border: 1px solid #EAF0FF;
+        padding: 9px 16px;
+    }
+}
+
+.bg-gray{
+    background: #F6F6F6;
+}
+.bg-primary{
+    background: var(--color-primary) !important;
 }
