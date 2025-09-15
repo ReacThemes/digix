@@ -80,3 +80,63 @@ hr{
         }
     }
 }
+
+.rts-feature-area-three.saas-landing{
+    .section-inner{
+        background: #F6F8FF;
+        border-radius: 20px;
+        padding: 10% 13%;
+    }
+    .title-left-wrapper .title, .title-center-wrapper .title{
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .bottom-button-area{
+        text-align: center;
+        margin-top: 50px;
+        .rts-btn{
+            margin: auto;
+            background: transparent;
+            
+        }
+    }
+}
+
+.rts-keyfeature-area.saas-landing {
+    .section-inner{
+        padding: 9% 8%;
+        background: linear-gradient(119.98deg, #615EFC 0.75%, #0C1018 99.25%);
+        border-radius: 20px;
+        .content-area{
+            display: flex;
+            gap: 30px;
+            .cyber-security-feature-right{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .top-thumbnail-area,
+                .bottom-thumbnail-area{
+                    display: flex;
+                    gap: 30px;
+                }
+                .top-thumbnail-area{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .title-center-wrapper{
+        .pre{
+            color: var(--color-white);
+            border: 1px solid rgba(#EAF0FF, $alpha: .1);
+            svg{
+                path{
+                    fill: var(--color-white);
+                }
+            }
+        }
+        .title{
+            color: var(--color-white);
+        }
+    }
+}

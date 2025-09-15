@@ -190,9 +190,6 @@ header.header-one.header-relative {
 .menu-btn-toggle{
     display: none;
     cursor: pointer;
-    @media #{$smlg-device} {
-        display: block;
-    }
     &.white{
         rect{
             fill: #fff;
@@ -348,5 +345,9 @@ header.header-one.header-saas{
     .rts-btn{
         background: var(--color-white);
         color: var(--color-primary);
+    }
+    &.sticky{
+        position: fixed !important;
+        background: linear-gradient(119.98deg, #615EFC 0.75%, #0C1018 99.25%);
     }
 }

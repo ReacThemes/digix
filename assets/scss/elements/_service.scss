@@ -720,3 +720,31 @@
         transform: scale(1.02) translateY(-2px);
     }
 }
+
+.single-feature-area-five {
+    padding: 34px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background: #EAF0FF;
+    .icon {
+        height: 50px;
+    }
+    .content {
+        margin-top: 110px;
+        .title {
+            font-size: 20px;
+            color: #050D20;
+            font-weight: 600;
+            margin-bottom: 18px;
+            line-height: 1.2;
+        }
+        p.disc {
+            font-size: 16px;
+            color: #717383;
+            margin-bottom: 0;
+        }
+    }
+    &:hover {
+        transform: scale(1.02) translateY(-2px);
+    }
+}

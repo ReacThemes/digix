@@ -120,6 +120,21 @@
     .rts-banner-marketing-automation .banner-content-two-style .title{
         font-size: 58px;
     }
+    .rts-banner-saas-landing .banner-content-two-style .title{
+        font-size: 64px;
+    }
+    .rts-banner-saas-landing .shape-area img:nth-child(1){
+        left: 8%;
+    }
+    .rts-banner-saas-landing .shape-area img:nth-child(2){
+        right: 10%;
+    }
+    .rts-banner-saas-landing .shape-area img:nth-child(3){
+        right: 25%;
+    }
+    .rts-feature-area-three.saas-landing .section-inner{
+        padding: 8%;
+    }
 }
 @media(max-width:1400px) and (min-width:1200px){
     .rts-banner-area-four .banner-content-two-style h1{
@@ -272,6 +287,16 @@
     }
     .pt_lg--50{
         padding-top: 50px;
+    }
+    .menu-btn-toggle {
+        display: block;
+    }
+    .rts-banner-saas-landing .shape-area img:nth-child(1) {
+        left: 6%;
+        top: 35%;
+    }
+    .rts-trusted-brand-area.saas-landing{
+        padding-top: 220px;
     }
 }
 @media(max-width:1200px) and (min-width:992px){
@@ -565,6 +590,30 @@
     .vision-left-main-image.marketing .thumbnail-vision img{
         width: 100%;
     }
+    .rts-banner-saas-landing .shape-area{
+        display: none;
+    }
+    .rts-banner-saas-landing{
+        height: auto;
+        padding-bottom: 60px;
+    }
+    .rts-banner-saas-landing .bg-shape img.shape-02 {
+        left: 0%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .rts-trusted-brand-area.saas-landing{
+        padding-top: 80px;
+    }
+    .rts-keyfeature-area.saas-landing .section-inner .content-area{
+        flex-direction: column;
+        align-items: self-start;
+        .thumbnail-feature-cyber{
+            img{
+                width: 100%;
+            }
+        }
+    }
 }
 
 @media(max-width:991px) and (min-width:768px) {
@@ -733,6 +782,24 @@
     .vision-left-main-image .board{
         right: -20px;
     }
+    .rts-banner-saas-landing .banner-content-two-style .title{
+        font-size: 46px;
+    }
+    .brand-area-wrapper-app-development .title{
+        font-size: 28px;
+    }
+    .rts-keyfeature-area.saas-landing .section-inner .content-area .cyber-security-feature-right .top-thumbnail-area{
+        flex-direction: column;
+        .thumbnail-single img{
+            width: 100%;
+        }
+    }
+    .rts-keyfeature-area.saas-landing .section-inner .content-area .cyber-security-feature-right .bottom-thumbnail-area{
+        flex-direction: column;
+        .thumbnail-single img{
+            width: 100%;
+        }
+    }
 }
 @media(max-width:768px) and (min-width:576px) {
 
@@ -900,6 +967,17 @@
     .cyber-secyrity-contact{
         padding: 40px 30px;
     }
+    .rts-banner-saas-landing .banner-content-two-style .title{
+        font-size: 36px;
+    }
+    .rts-keyfeature-area.saas-landing .title-center-wrapper .title{
+        br{
+            display: none;
+        }
+    }
+    .rts-keyfeature-area.saas-landing .section-inner{
+        padding: 9% 5%;
+    }
 }
 @media(max-width:576px) and (min-width:450px) {
 
@@ -1005,5 +1083,11 @@
     .about-three-wrapper.marketing .about-nav-area .nav-tabs .nav-item button span{
         font-size: 20px;
         gap: 15px;
+    }
+    .rts-banner-saas-landing{
+        padding-top: 125px;
+    }
+    .brand-area-wrapper-app-development .title{
+        font-size: 22px;
     }
 }

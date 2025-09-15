@@ -310,11 +310,23 @@ body.demo-app-development{
         }
     }
     .title-left-wrapper span.pre, .title-center-wrapper span.pre{
-        border-radius: 20px;
+        border-radius: 4px;
         line-height: 1;
         font-weight: 500;
         border: 1px solid #EAF0FF;
         padding: 9px 16px;
+        display: flex;
+        align-items: center;
+        color: #050D20;
+        gap: 10px;
+        max-width: max-content;
+        font-size: 16px;
+    }
+    .title-center-wrapper span.pre{
+        margin: auto;
+    }
+    header.header-one.header-relative .button-wrapper-flex svg rect{
+        fill: var(--color-white);
     }
 }
 
@@ -323,4 +335,7 @@ body.demo-app-development{
 }
 .bg-primary{
     background: var(--color-primary) !important;
+}
+.cp{
+    color: var(--color-primary);
 }

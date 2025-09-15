@@ -169,6 +169,9 @@
             575: {
               slidesPerView: 3,
             },
+            450: {
+              slidesPerView: 3,
+            },
             0: {
               slidesPerView: 2,
             }

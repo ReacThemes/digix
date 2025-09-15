@@ -14250,11 +14250,23 @@ body.demo-app-development .rts-mega-menu.sm-mega-70 {
   transform: rotate(45deg);
 }
 .saas-onepage .title-left-wrapper span.pre, .saas-onepage .title-center-wrapper span.pre {
-  border-radius: 20px;
+  border-radius: 4px;
   line-height: 1;
   font-weight: 500;
   border: 1px solid #EAF0FF;
   padding: 9px 16px;
+  display: flex;
+  align-items: center;
+  color: #050D20;
+  gap: 10px;
+  max-width: max-content;
+  font-size: 16px;
+}
+.saas-onepage .title-center-wrapper span.pre {
+  margin: auto;
+}
+.saas-onepage header.header-one.header-relative .button-wrapper-flex svg rect {
+  fill: var(--color-white);
 }
 
 .bg-gray {
@@ -14263,6 +14275,10 @@ body.demo-app-development .rts-mega-menu.sm-mega-70 {
 
 .bg-primary {
   background: var(--color-primary) !important;
+}
+
+.cp {
+  color: var(--color-primary);
 }
 
 .single-service-style-one .icon {
@@ -14928,6 +14944,34 @@ body.demo-app-development .rts-mega-menu.sm-mega-70 {
 }
 .single-feature-area-four:hover {
   border-color: var(--color-primary);
+  transform: scale(1.02) translateY(-2px);
+}
+
+.single-feature-area-five {
+  padding: 34px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  background: #EAF0FF;
+}
+.single-feature-area-five .icon {
+  height: 50px;
+}
+.single-feature-area-five .content {
+  margin-top: 110px;
+}
+.single-feature-area-five .content .title {
+  font-size: 20px;
+  color: #050D20;
+  font-weight: 600;
+  margin-bottom: 18px;
+  line-height: 1.2;
+}
+.single-feature-area-five .content p.disc {
+  font-size: 16px;
+  color: #717383;
+  margin-bottom: 0;
+}
+.single-feature-area-five:hover {
   transform: scale(1.02) translateY(-2px);
 }
 
@@ -17651,6 +17695,57 @@ button {
   width: 514px;
   height: 514px;
   animation-delay: 1s;
+}
+.call-to-action-wrapper-three.marketing .bg-shape {
+  position: absolute;
+  z-index: 1;
+}
+.call-to-action-wrapper-three.marketing .bg-shape.one {
+  left: 0;
+  bottom: 0;
+}
+.call-to-action-wrapper-three.marketing .bg-shape.two {
+  top: 0;
+  right: 0;
+}
+.call-to-action-wrapper-three.saas-landing {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(90.14deg, #050D20 -0.26%, #615EFC 144.24%);
+}
+.call-to-action-wrapper-three.saas-landing .round {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 50%;
+  border: 1px solid rgba(233, 243, 255, 0.05);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 202px;
+  height: 202px;
+  animation: scaleUp 4s ease-in-out infinite;
+}
+.call-to-action-wrapper-three.saas-landing .round.two {
+  height: 366px;
+  width: 366px;
+  animation-delay: 0.5s;
+}
+.call-to-action-wrapper-three.saas-landing .round.three {
+  width: 514px;
+  height: 514px;
+  animation-delay: 1s;
+}
+.call-to-action-wrapper-three.saas-landing .bg-shape {
+  position: absolute;
+  z-index: 1;
+}
+.call-to-action-wrapper-three.saas-landing .bg-shape.one {
+  left: 0;
+  bottom: 0;
+}
+.call-to-action-wrapper-three.saas-landing .bg-shape.two {
+  top: 0;
+  right: 0;
 }
 
 .rts-cta-main-wrapper-machine {
@@ -20411,6 +20506,57 @@ hr {
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
 }
 
+.rts-feature-area-three.saas-landing .section-inner {
+  background: #F6F8FF;
+  border-radius: 20px;
+  padding: 10% 13%;
+}
+.rts-feature-area-three.saas-landing .title-left-wrapper .title, .rts-feature-area-three.saas-landing .title-center-wrapper .title {
+  font-size: 24px;
+  line-height: 1.2;
+}
+.rts-feature-area-three.saas-landing .bottom-button-area {
+  text-align: center;
+  margin-top: 50px;
+}
+.rts-feature-area-three.saas-landing .bottom-button-area .rts-btn {
+  margin: auto;
+  background: transparent;
+}
+
+.rts-keyfeature-area.saas-landing .section-inner {
+  padding: 9% 8%;
+  background: linear-gradient(119.98deg, #615EFC 0.75%, #0C1018 99.25%);
+  border-radius: 20px;
+}
+.rts-keyfeature-area.saas-landing .section-inner .content-area {
+  display: flex;
+  gap: 30px;
+}
+.rts-keyfeature-area.saas-landing .section-inner .content-area .cyber-security-feature-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.rts-keyfeature-area.saas-landing .section-inner .content-area .cyber-security-feature-right .top-thumbnail-area,
+.rts-keyfeature-area.saas-landing .section-inner .content-area .cyber-security-feature-right .bottom-thumbnail-area {
+  display: flex;
+  gap: 30px;
+}
+.rts-keyfeature-area.saas-landing .section-inner .content-area .cyber-security-feature-right .top-thumbnail-area {
+  margin-bottom: 0;
+}
+.rts-keyfeature-area.saas-landing .title-center-wrapper .pre {
+  color: var(--color-white);
+  border: 1px solid rgba(234, 240, 255, 0.1);
+}
+.rts-keyfeature-area.saas-landing .title-center-wrapper .pre svg path {
+  fill: var(--color-white);
+}
+.rts-keyfeature-area.saas-landing .title-center-wrapper .title {
+  color: var(--color-white);
+}
+
 /* Header  */
 .header-one {
   position: absolute;
@@ -20577,11 +20723,6 @@ header.header-one.header-relative .button-wrapper-flex svg rect {
   display: none;
   cursor: pointer;
 }
-@media only screen and (max-width: 1199px) {
-  .menu-btn-toggle {
-    display: block;
-  }
-}
 .menu-btn-toggle.white rect {
   fill: #fff;
 }
@@ -20717,6 +20858,10 @@ header.header-one.header-saas .select-area.language .has-dropdown > a {
 header.header-one.header-saas .rts-btn {
   background: var(--color-white);
   color: var(--color-primary);
+}
+header.header-one.header-saas.sticky {
+  position: fixed !important;
+  background: linear-gradient(119.98deg, #615EFC 0.75%, #0C1018 99.25%);
 }
 
 @media only screen and (max-width: 1199px) {
@@ -21042,10 +21187,6 @@ header .nav-area ul li.main-nav:hover::after {
 }
 .rts-mega-menu.with-add .mega-menu-item li a.active img {
   filter: brightness(0) saturate(100%) invert(97%) sepia(3%) saturate(0%) hue-rotate(288deg) brightness(103%) contrast(100%);
-}
-.rts-mega-menu.with-home-demos {
-  width: 600px;
-  left: unset;
 }
 
 .mega-menu-item {
@@ -22007,6 +22148,21 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   .rts-banner-marketing-automation .banner-content-two-style .title {
     font-size: 58px;
   }
+  .rts-banner-saas-landing .banner-content-two-style .title {
+    font-size: 64px;
+  }
+  .rts-banner-saas-landing .shape-area img:nth-child(1) {
+    left: 8%;
+  }
+  .rts-banner-saas-landing .shape-area img:nth-child(2) {
+    right: 10%;
+  }
+  .rts-banner-saas-landing .shape-area img:nth-child(3) {
+    right: 25%;
+  }
+  .rts-feature-area-three.saas-landing .section-inner {
+    padding: 8%;
+  }
 }
 @media (max-width: 1400px) and (min-width: 1200px) {
   .rts-banner-area-four .banner-content-two-style h1 {
@@ -22159,6 +22315,16 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   }
   .pt_lg--50 {
     padding-top: 50px;
+  }
+  .menu-btn-toggle {
+    display: block;
+  }
+  .rts-banner-saas-landing .shape-area img:nth-child(1) {
+    left: 6%;
+    top: 35%;
+  }
+  .rts-trusted-brand-area.saas-landing {
+    padding-top: 220px;
   }
 }
 @media (max-width: 1200px) and (min-width: 992px) {
@@ -22450,6 +22616,28 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   .vision-left-main-image.marketing .thumbnail-vision img {
     width: 100%;
   }
+  .rts-banner-saas-landing .shape-area {
+    display: none;
+  }
+  .rts-banner-saas-landing {
+    height: auto;
+    padding-bottom: 60px;
+  }
+  .rts-banner-saas-landing .bg-shape img.shape-02 {
+    left: 0%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .rts-trusted-brand-area.saas-landing {
+    padding-top: 80px;
+  }
+  .rts-keyfeature-area.saas-landing .section-inner .content-area {
+    flex-direction: column;
+    align-items: self-start;
+  }
+  .rts-keyfeature-area.saas-landing .section-inner .content-area .thumbnail-feature-cyber img {
+    width: 100%;
+  }
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .single-service-style-four {
@@ -22612,6 +22800,24 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   .vision-left-main-image .board {
     right: -20px;
   }
+  .rts-banner-saas-landing .banner-content-two-style .title {
+    font-size: 46px;
+  }
+  .brand-area-wrapper-app-development .title {
+    font-size: 28px;
+  }
+  .rts-keyfeature-area.saas-landing .section-inner .content-area .cyber-security-feature-right .top-thumbnail-area {
+    flex-direction: column;
+  }
+  .rts-keyfeature-area.saas-landing .section-inner .content-area .cyber-security-feature-right .top-thumbnail-area .thumbnail-single img {
+    width: 100%;
+  }
+  .rts-keyfeature-area.saas-landing .section-inner .content-area .cyber-security-feature-right .bottom-thumbnail-area {
+    flex-direction: column;
+  }
+  .rts-keyfeature-area.saas-landing .section-inner .content-area .cyber-security-feature-right .bottom-thumbnail-area .thumbnail-single img {
+    width: 100%;
+  }
 }
 @media (max-width: 576px) {
   .demo-software-company header.header-one.header-relative .button-wrapper-flex .btn-primary {
@@ -22770,6 +22976,15 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   .cyber-secyrity-contact {
     padding: 40px 30px;
   }
+  .rts-banner-saas-landing .banner-content-two-style .title {
+    font-size: 36px;
+  }
+  .rts-keyfeature-area.saas-landing .title-center-wrapper .title br {
+    display: none;
+  }
+  .rts-keyfeature-area.saas-landing .section-inner {
+    padding: 9% 5%;
+  }
 }
 @media (max-width: 450px) {
   .rts-banner-area-four .banner-content-two-style h1 {
@@ -22870,6 +23085,12 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   .about-three-wrapper.marketing .about-nav-area .nav-tabs .nav-item button span {
     font-size: 20px;
     gap: 15px;
+  }
+  .rts-banner-saas-landing {
+    padding-top: 125px;
+  }
+  .brand-area-wrapper-app-development .title {
+    font-size: 22px;
   }
 }
 /*# sourceMappingURL=../maps/style.css.map */
