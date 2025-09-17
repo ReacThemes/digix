@@ -20852,6 +20852,9 @@ header.header-one.header-saas .main-nav > a {
 header.header-one.header-saas .main-nav > a::after {
   color: var(--color-white);
 }
+header.header-one.header-saas .nav-area ul li.main-nav:hover > a {
+  color: var(--color-white) !important;
+}
 header.header-one.header-saas .select-area.language .has-dropdown > a {
   color: var(--color-white);
 }
@@ -20983,7 +20986,7 @@ header .main-nav > a {
 .mega-menu-item.with-list li a span {
   padding: 3px 9px;
   border-radius: 33px;
-  background: var(--color-sky);
+  background: var(--color-primary);
   color: #fff;
   line-height: 1;
   font-size: 14px;
@@ -21187,6 +21190,10 @@ header .nav-area ul li.main-nav:hover::after {
 }
 .rts-mega-menu.with-add .mega-menu-item li a.active img {
   filter: brightness(0) saturate(100%) invert(97%) sepia(3%) saturate(0%) hue-rotate(288deg) brightness(103%) contrast(100%);
+}
+.rts-mega-menu.with-home-demos {
+  width: 630px;
+  left: unset;
 }
 
 .mega-menu-item {

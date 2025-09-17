@@ -339,6 +339,9 @@ header.header-one.header-saas{
         }
         
     }
+    .nav-area ul li.main-nav:hover > a{
+        color: var(--color-white) !important;
+    }
     .select-area.language .has-dropdown > a{
         color: var(--color-white);
     }
